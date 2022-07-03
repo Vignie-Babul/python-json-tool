@@ -7,15 +7,11 @@
 ### save
 
 ```python
-save(data: dict, file_name: str, path='assets/data/')
+save(data: dict, file_name: str, path: str)
 ```
 
 ### read
 
 ```python
-read(file_name: str, path='assets/data/') -> dict
+read(file_name: str, path: str) -> dict
 ```
-
----
-
-*Примечание:* для удобства работы, путь к папке с данными (data) находится в папке ресурсов (assets)
