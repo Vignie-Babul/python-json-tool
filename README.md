@@ -7,7 +7,7 @@
 ### save
 
 ```python
-save(data: dict, file_name: str, path: str)
+save(data, file_name, path)
 ```
 
 - data: dict
@@ -17,7 +17,7 @@ save(data: dict, file_name: str, path: str)
 ### read
 
 ```python
-read(file_name: str, path: str) -> dict
+read(file_name, path) -> dict
 ```
 
 - file_name: str
