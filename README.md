@@ -10,8 +10,15 @@
 save(data: dict, file_name: str, path: str)
 ```
 
+- data: dict
+- file_name: str
+- path: str
+
 ### read
 
 ```python
 read(file_name: str, path: str) -> dict
 ```
+
+- file_name: str
+- path: str
