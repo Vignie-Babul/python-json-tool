@@ -7,18 +7,16 @@
 ### save
 
 ```python
-save(data, file_name, path)
+save(data, path)
 ```
 
 - data: dict
-- file_name: str
-- path: str = 'assets/data/'
+- path: str
 
 ### read
 
 ```python
-read(file_name, path) -> dict
+read(path) -> dict
 ```
 
-- file_name: str
-- path: str = 'assets/data/'
+- path: str
